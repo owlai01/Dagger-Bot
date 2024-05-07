@@ -1,7 +1,7 @@
 <h1 align="center"> This base was created by King Sam </h1>
 
 <p align="center">
-<img src="https://telegra.ph/file/7fba1ad2920b3f745b885.jpg" width="480" height="480"/>
+<img src="https://telegra.ph/file/7fba1ad2920b3f745b885.jpg" width="420" height="430"/>
 </p>
 
 <p align="center">
