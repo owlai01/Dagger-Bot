@@ -43,7 +43,7 @@
 
 ```csharp
 🦠| .You need to scan and get session using pair code
-🦠| .[Pair](https://pairing-3w13.onrender.com/pair)
+🦠| .https://pairing-3w13.onrender.com/pair
 🦠| .Upload session to { Daggerses }
 🦠| .Go to [Heroku](heroku.com) Login 
 🦠| .Create a new app
