@@ -1,17 +1,17 @@
-<h1 align="center"> This base was created by ZetsuboXygen </h1>
+<h1 align="center"> This base was created by Sam </h1>
 
 <p align="center">
-<img src="https://telegra.ph/file/150f50669e93735c51aea.jpg" width="128" height="128"/>
+<img src="https://telegra.ph/file/7fba1ad2920b3f745b885.jpg" width="128" height="128"/>
 </p>
 
 <p align="center">
-<a href="https://github.com/zetsubococaebom"><img title="Author" src="https://img.shields.io/badge/Zetsubo-Md-black?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/Samuel-l1"><img title="Author" src="https://img.shields.io/badge/Dagger-MD?style=for-the-badge&logo=whatsapp"></a>
 <p/>
 <p align="center">
-<a href="https://github.com/zetsubococaebom?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/zetsubococaebom?label=Followers&style=social"></a>
-<a href="https://github.com/zetsubococaebom/Zetsubo-Md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/zetsubococaebom/Zetsubo-Md?&style=social"></a>
+<a href="https://Samue-l1tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/zetsubococaebom?label=Followers&style=social"></a>
+<a href="https://github.com/Samue-l1/Dagger-MD/stargazers/"><img 
 <a href="https://github.com/zetsubococaebom/Zetsubo-Md/network/members"><img title="Fork" src="https://img.shields.io/github/forks/zetsubococaebom/Zetsubo-Md?style=social"></a>
-<a href="https://github.com/zetsubococaebom/Zetsubo-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/zetsubococaebom/Zetsubo-Md?label=Watching&style=social"></a>
+<a href="https://github.com/Samue-l1/Dagger-Bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Samue-1/Dagger-Bot?label=Watching&style=social"></a>
 </p>
 </a>
 </p>  
@@ -68,8 +68,10 @@
 
 * [Mamang Adhiraj](https://github.com/adiwajshing)
 
+* [King Sam](https://github.com/Samue-l1)
+
 ## Contact Me
   
-* [Telegram](https://t.me/Zetsugen7)
-* [Instagram](https://instagram.com/ryo.cocaebom_?igshid=OGQ5ZDc2ODk2ZA==)
-* [Tiktok Direct Message](tiktok.com/@xygengod777)
+* [Telegram](@k_i_n_g_s_a_m)
+ 
+* [Whatsapp](https://api.whatsapp.com/send?phone=+254104301695)
