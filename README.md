@@ -9,7 +9,7 @@
 <p/>
 <p align="center">
 <a href="https://github.com/Samue-l1?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/zetsubococaebom?label=Followers&style=social"></a>
-<a href="https://github.com/Samue-l1/Dagger-Bot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/zetsubococaebom/Zetsubo-Md?&style=social"></a>
+<a href="https://github.com/Samue-l1/Dagger-Bot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Samue-l1/Dagger-Bot?&style=social"></a>
 <a href="https://github.com/Samue-l1/Dagger-Bot/network/members"><img title="Fork" src="https://img.shields.io/github/forks/zetsubococaebom/Zetsubo-Md?style=social"></a>
 <a href="https://github.com/Samue-l1/Dagger-Bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/zetsubococaebom/Zetsubo-Md?label=Watching&style=social"></a>
 </p>
@@ -43,7 +43,6 @@
 
 ```csharp
 🦠| .You need to scan and get session using pair code
-🦠| .https://pairing-3w13.onrender.com/pair
 🦠| .Upload session to { Daggerses }
 🦠| .Go to [Heroku](heroku.com) Login 
 🦠| .Create a new app
@@ -51,6 +50,8 @@
 🦠| .👇👇
 ```
 # Instalasi
+* [Pair code](https://pairing-3w13.onrender.com/pair)
+* [Heroku](heroku.com)
 ## Heroku Buildpack
 ```bash
 heroku/nodejs
