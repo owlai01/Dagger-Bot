@@ -670,7 +670,7 @@ case 'ping': {
   const startTime = new Date();
   const pingMsg = await joestar.sendMessage(m.chat, { text: '*Classifying*' });
 
- await joestat.relayMessage(m.chat, {
+ await joestar.relayMessage(m.chat, {
       protocolMessage: {
         key: pingMsg.key,
         type: 14,
@@ -688,8 +688,8 @@ break;
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: botname,
-                            body: ownername,
+                            title: '𝙳𝙰𝙶𝙶𝙴𝚁-𝙼𝙳 𝚅𝙸𝙿',
+                            body: '𝓚𝓲𝓷𝓰 𝓜𝓸𝓭𝔃',
                             thumbnailUrl: 'https://telegra.ph/file/e32f7c06e85d9d86ec82b.jpg',
                             sourceUrl: 'https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk',
                             mediaType: 1,
