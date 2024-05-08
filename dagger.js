@@ -741,7 +741,6 @@ break;
                 }
                 break
     case 'listprem':
-if (!isCreator) return msgreply('*Owner Command*')
  teksooo = '*List Premium*\n\n'
 for (let i of owner) {
 teksooo += `- ${i}\n`
@@ -749,7 +748,7 @@ teksooo += `- ${i}\n`
 teksooo += `\n*Total : ${owner.length}*`
 joestar.sendMessage(from, { text: teksooo.trim() }, 'extendedTextMessage', { quoted:m, contextInfo: { "mentionedJid": owner } })
 break
-        case 'tourl': {
+        case 'eeeeew': {
                 msgreply(joestar.wait)
                 let media = await joestar.downloadAndSaveMediaMessage(qmsg)
                 if (/image/.test(mime)) {
