@@ -734,14 +734,14 @@ break;
                 if (args.length < 1) return msgreply(`Example ${prefix + command} on/off`)
                 if (q === 'on') {
                     autoread_status = true
-                    reply(`Successfully changed auto status/story view to ${q}`)
+                    msgreply(`Successfully changed auto status/story view to ${q}`)
                 } else if (q === 'off') {
                     autoread_status = false
-                    reply(`Successfully changed auto status/story view to ${q}`)
+                    msgreply(`Successfully changed auto status/story view to ${q}`)
                 }
                 break
     case 'listprem':
-if (isBan) return reply('*Owner Command*')
+if (!isCreator) return msgreply('*Owner Command*')
  teksooo = '*List Premium*\n\n'
 for (let i of owner) {
 teksooo += `- ${i}\n`
@@ -750,28 +750,28 @@ teksooo += `\n*Total : ${owner.length}*`
 joestar.sendMessage(from, { text: teksooo.trim() }, 'extendedTextMessage', { quoted:m, contextInfo: { "mentionedJid": owner } })
 break
         case 'tourl': {
-                reply(joestar.wait)
+                msgreply(joestar.wait)
                 let media = await joestar.downloadAndSaveMediaMessage(qmsg)
                 if (/image/.test(mime)) {
                     let anu = await TelegraPh(media)
-                    reply(util.format(anu))
+                    msgreply(util.format(anu))
                 } else if (!/image/.test(mime)) {
                     let anu = await UploadFileUgu(media)
-                    reply(util.format(anu))
+                    msgreply(util.format(anu))
                 }
                 await fs.unlinkSync(media)
 
             }
             break
         case 'autoread':
-                if (!isCreator) return replyg(mess.owner)
-                if (args.length < 1) return reply(`Example ${prefix + command} on/off`)
+                if (!isCreator) return msgreply(mess.owner)
+                if (args.length < 1) return msgreply(`Example ${prefix + command} on/off`)
                 if (q === 'on') {
                     autoread = true
-                    reply(`Successfully changed autoread to ${q}`)
+                    msgreply(`Successfully changed autoread to ${q}`)
                 } else if (q === 'off') {
                     autoread = false
-                    reply(`Successfully changed autoread to ${q}`)
+                    msgreply(`Successfully changed autoread to ${q}`)
                 }
                 break
         
