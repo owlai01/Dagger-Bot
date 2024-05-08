@@ -1,23 +1,7 @@
 /*
 ================================================================================
 
-> Kalo Mau Recode Kasih Credit gw ›
-        TheZetsubXygen / Ryo
-
-📝 -> Created By thezetsuboxygen / Ryo
-🖥️ -> Base Ori By thezetsuboxygen / Ryo
-
-❗PERINGATAN KERAS:
-
-Script ini disediakan secara gratis dan tanpa biaya. Dilarang keras untuk menjual atau mendistribusikan ulang untuk keuntungan komersial, atau menggunakan script ini untuk tujuan komersial tanpa izin tertulis. Kami ingin tegaskan bahwa script ini diberikan secara gratis untuk berbagi pengetahuan dan membantu komunitas. Setiap upaya menjual atau mengkomersilkan script ini tanpa izin merupakan pelanggaran etika yang tidak diterima. Gunakanlah script ini dengan penuh tanggung jawab dan hormati usaha yang telah dilakukan oleh pembuatnya.
-
-❗Dengan menggunakan script ini, Anda menyatakan bahwa Anda memahami dan setuju bahwa penggunaan script ini sepenuhnya berada pada risiko Anda sendiri!!.
-
-pembuat script ini tidak memberikan jaminan apa pun, baik secara tersurat maupun tersirat, mengenai keandalan, keamanan, kesesuaian untuk tujuan tertentu, atau kinerja dari script ini. pengguna bertanggung jawab penuh atas semua tindakan yang dilakukan dengan menggunakan script ini, termasuk tapi tidak terbatas pada modifikasi, implementasi, dan konsekuensi yang timbul dari penggunaannya. pembuat script ini tidak bertanggung jawab atas kerusakan, kerugian, atau konsekuensi lain yang mungkin terjadi sebagai hasil dari penggunaan atau ketidakmampuan menggunakan script ini. diharapkan bagi pengguna untuk menggunakan script ini dengan bijak dan bertanggung jawab, dengan mempertimbangkan segala risiko yang ada. segala bentuk kerusakan atau kerugian yang timbul adalah tanggung jawab pengguna, dan pembuat script tidak akan dikenai tuntutan atau klaim atas dasar apa pun
-
-dengan melanjutkan penggunaan script ini, Anda mengakui bahwa Anda telah membaca dan mengerti pernyataan ini dan setuju untuk terikat oleh syarat dan ketentuan yang tercantum di atas.
-
-Terima kasih atas pengertian dan kerjasama Anda.
+>  SCRIPT BY KING SAM.
 ================================================================================
 */
 require('./config.js')
@@ -682,6 +666,40 @@ quoted: m
 
 }
 break
+case 'ping': {
+  const startTime = new Date();
+  const pingMsg = await joestar.sendMessage(m.chat, { text: '*Classifying*' });
+
+ await joestat.relayMessage(m.chat, {
+      protocolMessage: {
+        key: pingMsg.key,
+        type: 14,
+        editedMessage: {
+          conversation: `𝚅𝙸𝙿 𝚂𝙿𝙴𝙴𝙳 ➟ *${new Date() - startTime}* 𝐌/𝐒`
+        }
+      }
+    }, {});
+  } 
+break;
+ case 'runtime':
+                let pinga = `𝙳𝙰𝙶𝙶𝙴𝚁-𝙼𝙳 𝚅𝙸𝙿 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝙰𝙲𝚃𝙸𝚅𝙴 𝙵𝙾𝚁 ${runtime(process.uptime())}`
+                joestar.sendMessage(m.chat, {
+                    text: pinga,
+                    contextInfo: {
+                        externalAdReply: {
+                            showAdAttribution: true,
+                            title: botname,
+                            body: ownername,
+                            thumbnailUrl: 'https://telegra.ph/file/e32f7c06e85d9d86ec82b.jpg',
+                            sourceUrl: 'https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk',
+                            mediaType: 1,
+                            renderLargerThumbnail: true
+                        }
+                    }
+                }, {
+                    quoted: m
+                })
+                break
 
 //Openai
 case "ai": case "chatgpt": case "openai": {
