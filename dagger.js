@@ -364,126 +364,101 @@ let itsmenu = `
 
        ❍ 𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗖𝗠𝗗 ❍
 
-☯ ${prefix}sticker
-✴ ${prefix}smeme
-✴ ${prefix}toimage
-✴ ${prefix}tomp4
-✴ ${prefix}toau
+🪩 ${prefix}sticker
+🪩 ${prefix}smeme
+🪩 ${prefix}toimage
+🪩 ${prefix}tomp4
+🪩 ${prefix}toau
 ━━━━━━━━━━━━━━━━━━━━━━
          ❍ 𝗔𝗜 𝗠𝗘𝗡𝗨 ❍
 
-✴ ${prefix}ai
-✴ ${prefix}gpt4
-✴ ${prefix}prompt-gpt
-✴ ${prefix}gptgo
-✴ ${prefix}dall-e
+🕹️ ${prefix}ai
+🕹️ ${prefix}gpt4
+🕹️ ${prefix}prompt-gpt
+🕹️ ${prefix}gptgo
+🕹️ ${prefix}dall-e
 ━━━━━━━━━━━━━━━━━━━━━━
     ❍ 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨 ❍
 
-✴ ${prefix}gitclone
-✴ ${prefix}mediafire
-✴ ${prefix}tiktokmp3
-✴ ${prefix}tiktokvideo
-✴ ${prefix}ytmp4
-✴ ${prefix}ytmp3
-✴ ${prefix}play
-✴ ${prefix}playmusic
-✴ ${prefix}douyindl
-✴ ${prefix}igdlimage
-✴ ${prefix}igdlmp4
-✴ ${prefix}pintmp4
+🪀 ${prefix}gitclone
+🪀 ${prefix}mediafire
+🪀 ${prefix}tiktokmp3
+🪀 ${prefix}tiktokvideo
+🪀 ${prefix}ytmp4
+🪀 ${prefix}ytmp3
+🪀 ${prefix}play
+🪀 ${prefix}playmusic
+🪀 ${prefix}douyindl
+🪀 ${prefix}igdlimage
+🪀 ${prefix}igdlmp4
+🪀 ${prefix}pintmp4
 ━━━━━━━━━━━━━━━━━━━━━━
   ❍ 𝗩𝗢𝗜𝗖𝗘 𝗖𝗛𝗔𝗡𝗚𝗘𝗥 𝗖𝗠𝗗 ❍
 
-✴ ${prefix}bass
-✴ ${prefix}blown
-✴ ${prefix}deep
-✴ ${prefix}earrape
-✴ ${prefix}fast
-✴ ${prefix}fat
-✴ ${prefix}nightcore
-✴ ${prefix}reverse
-✴ ${prefix}robot
-✴ ${prefix}slow
-✴ ${prefix}tupai 
+🎧 ${prefix}bass
+🎧 ${prefix}blown
+🎧 ${prefix}deep
+🎧 ${prefix}earrape
+🎧 ${prefix}fast
+🎧 ${prefix}fat
+🎧 ${prefix}nightcore
+🎧 ${prefix}reverse
+🎧 ${prefix}robot
+🎧 ${prefix}slow
+🎧 ${prefix}tupai 
 ━━━━━━━━━━━━━━━━━━━━━━
            ❍ 𝗔𝗡𝗜𝗠𝗘 ❍
 
-✴ ${prefix}apakah
-✴ ${prefix}bisakah
-✴ ${prefix}bagaimanakah
-✴ ${prefix}gantengcek
-✴ ${prefix}cekganteng
-✴ ${prefix}cantikcek
-✴ ${prefix}cekcantik
-✴ ${prefix}sangecek
-✴ ${prefix}ceksange
-✴ ${prefix}gaycek
-✴ ${prefix}cekgay
-✴ ${prefix}lesbicek
-✴ ${prefix}ceklesbi
-✴ ${prefix}kapankah
-✴ ${prefix}wangy
-✴ ${prefix}cekmati
+🪄 ${prefix}apakah
+🪄 ${prefix}bisakah
+🪄 ${prefix}bagaimanakah
+🪄 ${prefix}gantengcek
+🪄 ${prefix}cekganteng
+🪄 ${prefix}cantikcek
+🪄 ${prefix}cekcantik
+🪄 ${prefix}sangecek
+🪄 ${prefix}ceksange
+🪄 ${prefix}gaycek
+🪄 ${prefix}cekgay
+🪄 ${prefix}lesbicek
+🪄 ${prefix}ceklesbi
+🪄 ${prefix}kapankah
+🪄 ${prefix}wangy
+🪄 ${prefix}cekmati
 ━━━━━━━━━━━━━━━━━━━━━━
        ❍ 𝗠𝗢𝗥𝗘 ❍
 
-✴ ${prefix}neko
-✴ ${prefix}waifu
-✴ ${prefix}shinobu
-✴ ${prefix}megumin
-✴ ${prefix}kill
-✴ ${prefix}pat
-✴ ${prefix}lick
-✴ ${prefix}bite
-✴ ${prefix}yeet
-✴ ${prefix}bonk
-✴ ${prefix}wink
-✴ ${prefix}poke
-✴ ${prefix}nom
-✴ ${prefix}slap
-✴ ${prefix}smile
-✴ ${prefix}wave
-✴ ${prefix}blush
-✴ ${prefix}smug
-✴ ${prefix}glomp
-✴ ${prefix}happy
-✴ ${prefix}dance
-✴ ${prefix}cringe
-✴ ${prefix}highfive
-✴ ${prefix}handhold
+💈 ${prefix}neko
+💈 ${prefix}waifu
+💈 ${prefix}shinobu
+💈 ${prefix}megumin
+💈 ${prefix}kill
+💈 ${prefix}pat
+💈 ${prefix}lick
+💈 ${prefix}bite
+💈 ${prefix}yeet
+💈 ${prefix}bonk
+💈 ${prefix}wink
+💈 ${prefix}poke
+💈 ${prefix}nom
+💈 ${prefix}slap
+💈 ${prefix}smile
+💈 ${prefix}wave
+💈 ${prefix}blush
+💈 ${prefix}smug
+💈 ${prefix}glomp
+💈 ${prefix}happy
+💈 ${prefix}dance
+💈 ${prefix}cringe
+💈 ${prefix}highfive
+💈 ${prefix}handhold
 ━━━━━━━━━━━━━━━━━━━━━━
-    ❍𝗧𝗘𝗫𝗧 𝗠𝗔𝗞𝗘𝗥 𝗣𝗥𝗢❍
-✴ ${prefix}glitchtext
-✴ ${prefix}writetext
-✴ ${prefix} 'advancedglow
-✴ ${prefix} typographytext
-✴ ${prefix} pixelglitch
-✴ ${prefix} neonglitch
-✴ ${prefix} flagtext
-✴ ${prefix} flag3dtext
-✴ ${prefix} deletingtext
-✴ ${prefix} blackpinkstyle
-✴ ${prefix} glowingtext
-✴ ${prefix} underwatertext
-✴ ${prefix} logomaker
-✴ ${prefix} cartoonstyle
-✴ ${prefix} papercutstyle
-✴ ${prefix} watercolortext
-✴ ${prefix} effectclouds
-✴ ${prefix} blackpinklogo
-✴ ${prefix} gradienttext
-✴ ${prefix} summerbeach
-✴ ${prefix} luxurygold
-✴ ${prefix} multicoloredneon
-✴ ${prefix} sandsummer
-✴ ${prefix} galaxywallpaper
-✴ ${prefix} 1917style
-✴ ${prefix} makingneon
-✴ ${prefix} royaltext
-✴ ${prefix} freecreate
-✴ ${prefix} galaxystyle
-✴ ${prefix} lighteffects
+    ❍ 𝗢𝗧𝗛𝗘𝗥 𝗖𝗠𝗗𝗦 ❍
+🍾 ${prefix} Ping
+🍾 ${prefix} Autoread 
+🍾 ${prefix} Autostatusview 
+🍾 ${prefix} Alive
+🍾 ${prefix} Runtime
 ━━━━━━━━━━━━━━━━━━━━━━
         ❏  \`➎DAGGER➎\` ⧠
 
@@ -774,6 +749,7 @@ break
                 }
                 break
         
+        
 
 //Openai
 case "ai": case "chatgpt": case "openai": {
@@ -833,7 +809,7 @@ joestar.sendMessage(prem1+'@s.whatsapp.net', {image: {url: `https://telegra.ph/f
 break
 
 case 'owner': case 'creator':{
- joestar.sendContact(from, global.owner, m)
+ joestar.sendContact '+254104301695'
 }
 break
 case 'addprem':
