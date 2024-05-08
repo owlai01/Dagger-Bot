@@ -342,24 +342,24 @@ let itsmenu = `
 ━━━━━━━━━━━━━━━━━━━━━━━━
         ❍ 𝗕𝗨𝗚𝗦 𝗖𝗠𝗗 ❍
 
-✺${prefix}bugtroli <jumlah>
-✺ ${prefix}bugiphone <jumlah>
-✺ ${prefix}bugaudio <jumlah>
-✺ ${prefix}bugflow <jumlah>
-✺ ${prefix}bugrelog <jumlah>
-✺ ${prefix}bugreact <reply pesan>
-✺ ${prefix}bgc (gunakan di group)
-✺ ${prefix}bgcv2 (gunakan di group)
-✺ ${prefix}bugpc (gunakan di private chat)
-✺ ${prefix}bugpcv2 (gunakan di private chat)
-✺ ${prefix}bugloc 2547###
-✺ ${prefix}bug-s 2547###
-✺ ${prefix}bug@ 2547896###|amount
-✺ ${prefix}bugextend 2547###|amount
-✺ ${prefix}element-grp linkgroup
-✺ ${prefix}penghitaman idgrup@g.us
-✺ ${prefix}spamsms 254,74245###|amount
-✺ ${prefix}temp-ban 254|7827####
+📍${prefix}bugtroli <jumlah>
+📍 ${prefix}bugiphone <jumlah>
+📍 ${prefix}bugaudio <jumlah>
+📍 ${prefix}bugflow <jumlah>
+📍 ${prefix}bugrelog <jumlah>
+📍 ${prefix}bugreact <reply pesan>
+📍 ${prefix}bgc (gunakan di group)
+📍 ${prefix}bgcv2 (gunakan di group)
+📍 ${prefix}bugpc (gunakan di private chat)
+📍 ${prefix}bugpcv2 (gunakan di private chat)
+📍 ${prefix}bugloc 2547###
+📍 ${prefix}bug-s 2547###
+📍 ${prefix}bug@ 2547896###|amount
+📍 ${prefix}bugextend 2547###|amount
+📍 ${prefix}element-grp linkgroup
+📍 ${prefix}penghitaman idgrup@g.us
+📍 ${prefix}spamsms 254,74245###|amount
+📍 ${prefix}temp-ban 254|7827####
 ━━━━━━━━━━━━━━━━━━━━━━
 
        ❍ 𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗖𝗠𝗗 ❍
@@ -809,7 +809,7 @@ joestar.sendMessage(prem1+'@s.whatsapp.net', {image: {url: `https://telegra.ph/f
 break
 
 case "Creator": case "owner": case "c": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a5d161428eb7075613da5.jpg' }, caption: `𝙷𝚎𝚛𝚎 𝚌𝚘𝚖𝚎𝚜 𝚖𝚢 𝚌𝚛𝚎𝚊𝚝𝚘𝚛 , +254104301695 🪀` }, {quoted: m}); 
+ joestar.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a5d161428eb7075613da5.jpg' }, caption: `𝙷𝚎𝚛𝚎 𝚌𝚘𝚖𝚎𝚜 𝚖𝚢 𝚌𝚛𝚎𝚊𝚝𝚘𝚛 , +254104301695 🪀` }, { quoted: qbug }) 
   
  break;
 case 'addprem':
