@@ -808,10 +808,10 @@ joestar.sendMessage(prem1+'@s.whatsapp.net', {image: {url: `https://telegra.ph/f
 }
 break
 
-case 'owner': case 'creator':{
- joestar.sendContact '+254104301695'
-}
-break
+case "Creator": case "owner": case "c": 
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a5d161428eb7075613da5.jpg' }, caption: `𝙷𝚎𝚛𝚎 𝚌𝚘𝚖𝚎𝚜 𝚖𝚢 𝚌𝚛𝚎𝚊𝚝𝚘𝚛 , +254104301695 🪀` }, {quoted: m}); 
+  
+ break;
 case 'addprem':
 if (!isCreator) return 
 if (!args[0]) return msgreply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 62895350011678`)
