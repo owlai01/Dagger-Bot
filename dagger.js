@@ -700,6 +700,81 @@ break;
                     quoted: m
                 })
                 break
+     case "alive":
+
+const audiovn = "./dagger.mp3";
+    const dooc = {
+        audio: {
+          url: audiovn
+        },
+        mimetype: 'audio/mp4',
+        ptt: true,
+        waveform:  [100, 0, 100, 0, 100, 0, 100],
+        fileName: "",
+
+        contextInfo: {
+          mentionedJid: [m.sender],
+          externalAdReply: {
+          title: "𝚂𝚞𝚛𝚙𝚛𝚒𝚜𝚎𝚍 𝙷𝚞𝚑?,𝙳𝚊𝚐𝚐𝚎𝚛 𝙱𝚘𝚝 𝙸𝚜 𝚊𝚕𝚠𝚊𝚢𝚜 𝚊𝚌𝚝𝚒𝚟𝚎 𝚝𝚘 𝚜𝚎𝚛𝚟𝚎 𝚢𝚘𝚞 𝚑𝚞𝚖𝚊𝚗.",
+          body: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
+          thumbnailUrl: "https://telegra.ph/file/d78450cd45f561fa4f748.jpg",
+          sourceUrl: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
+          mediaType: 1,
+          renderLargerThumbnail: true
+          }}
+      };
+
+
+await joestar.sendMessage(m.chat, dooc, {quoted: m});
+
+
+break;
+  case 'autostatusview':
+                if (!isCreator) 
+                if (args.length < 1) return msgreply(`Example ${prefix + command} on/off`)
+                if (q === 'on') {
+                    autoread_status = true
+                    reply(`Successfully changed auto status/story view to ${q}`)
+                } else if (q === 'off') {
+                    autoread_status = false
+                    reply(`Successfully changed auto status/story view to ${q}`)
+                }
+                break
+    case 'listprem':
+if (isBan) return reply('*Owner Command*')
+ teksooo = '*List Premium*\n\n'
+for (let i of owner) {
+teksooo += `- ${i}\n`
+}
+teksooo += `\n*Total : ${owner.length}*`
+joestar.sendMessage(from, { text: teksooo.trim() }, 'extendedTextMessage', { quoted:m, contextInfo: { "mentionedJid": owner } })
+break
+        case 'tourl': {
+                reply(joestar.wait)
+                let media = await joestar.downloadAndSaveMediaMessage(qmsg)
+                if (/image/.test(mime)) {
+                    let anu = await TelegraPh(media)
+                    reply(util.format(anu))
+                } else if (!/image/.test(mime)) {
+                    let anu = await UploadFileUgu(media)
+                    reply(util.format(anu))
+                }
+                await fs.unlinkSync(media)
+
+            }
+            break
+        case 'autoread':
+                if (!isCreator) return replyg(mess.owner)
+                if (args.length < 1) return reply(`Example ${prefix + command} on/off`)
+                if (q === 'on') {
+                    autoread = true
+                    reply(`Successfully changed autoread to ${q}`)
+                } else if (q === 'off') {
+                    autoread = false
+                    reply(`Successfully changed autoread to ${q}`)
+                }
+                break
+        
 
 //Openai
 case "ai": case "chatgpt": case "openai": {
