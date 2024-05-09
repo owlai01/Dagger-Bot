@@ -50,7 +50,7 @@
 🦠| .👇👇
 ```
 # Instalasi
-* [Pair code](https://pairing-3w13.onrender.com/pair)
+* [Pair code](https://replit.com/@pesguru02/Classic-Pairing)
 * [Heroku](heroku.com)
 ## Heroku Buildpack
 ```bash
